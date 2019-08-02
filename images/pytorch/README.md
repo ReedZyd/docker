@@ -1,7 +1,7 @@
 README.md
 ======
 
-* reed98/basic:pytorch.Dockerfile
+* reed98/pytorch:pytorch.Dockerfile
 
   * ubuntu16.04
   * cuda9.0
