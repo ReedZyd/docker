@@ -25,11 +25,11 @@ README.md
 
 	* docker pull reed98/pytorch:pytorch
 	
-	* docker tag reed98/pytorch:pytorch 192.168.199.100:8888/reed98/pytorch:pytorch
+	* docker tag reed98/pytorch:pytorch 192.168.199.100:8888/zyd/pytorch:pytorch
 	
 	* docker login 192.168.199.100:8888
 	
-	* docker push 192.168.199.100:8888/reed98/pytorch:pytorch
+	* docker push 192.168.199.100:8888/zyd/pytorch:pytorch
 
 	
 
