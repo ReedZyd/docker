@@ -1,3 +1,4 @@
+#cuda9.0 python3.5
 FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 ADD sources.list /etc/apt/
