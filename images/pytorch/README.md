@@ -7,3 +7,6 @@ README.md
   * cuda9.0
   * python3.5
   * pytorch1.1
+  
+  
+封装镜像：docker build -t pytorch -f ./pytorch.Dockerfile ./
