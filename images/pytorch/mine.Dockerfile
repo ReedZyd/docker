@@ -25,4 +25,6 @@ RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple matplotlib==2.1.1
 
 RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple seaborn
 
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tqdm
+
 WORKDIR /root
