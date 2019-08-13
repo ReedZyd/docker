@@ -42,4 +42,8 @@ README.md
 	
 	* docker push 192.168.199.100:8888/reed98/pytorch:pytorch
 
+* 上传数据
+
+	 * scp -r some_data vsislab@192.168.199.100:data/zyd/
+
 	
