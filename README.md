@@ -45,5 +45,15 @@ README.md
 * 上传数据
 
 	 * scp -r some_data vsislab@192.168.199.100:data/zyd/
+	 
+* 直接使用node53
 
-	
+         * 连接&登录
+	 	
+		* 地址：202.194.203.129:3353
+	 	
+		* 账号：vsislab
+	 	
+		* 密码：vsislab123
+	 
+
