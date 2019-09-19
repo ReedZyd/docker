@@ -25,7 +25,7 @@ README.md
 
 	* docker login
 	
-		! [image](http://github.com/ReedZyd/using_images/raw/master/README_images/docker_login.png)
+		![image](http://github.com/ReedZyd/using_images/raw/master/README_images/docker_login.png)
 		
 	* sudo docker push reed98/pytorch:pytorch
 	
