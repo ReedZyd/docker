@@ -35,7 +35,9 @@ README.md
 	* sudo docker push reed98/pytorch:pytorch
 * 其他操作：
 
-		
+	* sudo docker images / sudo docker image ls
+	
+	* sudo docker rm \[镜像1\] \[镜像2\]
 * 在集群中使用
 
 	* docker pull reed98/pytorch:pytorch
