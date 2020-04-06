@@ -35,7 +35,7 @@ README.md
 	* sudo docker push reed98/pytorch:pytorch
 * 其他操作：
 
-	
+		
 * 在集群中使用
 
 	* docker pull reed98/pytorch:pytorch
