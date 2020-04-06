@@ -19,7 +19,9 @@ README.md
 
 * 安装镜像：
 
+	* https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html
 	
+	* 如果用dockerhub 需要设置加速器
 * 封装镜像：
 
 	* docker build -t reed98/pytorch:pytorch -f ./pytorch.Dockerfile ./
