@@ -33,6 +33,8 @@ README.md
 		![image](http://github.com/ReedZyd/using_images/raw/master/README_images/docker_login.png)
 		
 	* sudo docker push reed98/pytorch:pytorch
+* 其他操作：
+
 	
 * 在集群中使用
 
