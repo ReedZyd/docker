@@ -16,7 +16,10 @@ README.md
 	* python3.5
 
 	* pytorch1.1 torchvision0.3
-  
+
+* 安装镜像：
+
+	
 * 封装镜像：
 
 	* docker build -t reed98/pytorch:pytorch -f ./pytorch.Dockerfile ./
