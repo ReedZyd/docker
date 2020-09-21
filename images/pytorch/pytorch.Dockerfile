@@ -19,6 +19,6 @@ RUN wget -q https://repo.anaconda.com/miniconda/Miniconda3-4.1.11-Linux-x86_64.s
 
 ENV PATH=/opt/conda/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchvision
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchvision tqdm opencv-python
 
 WORKDIR /root
