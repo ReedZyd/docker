@@ -26,20 +26,20 @@ README.md
 
 	* docker build -t reed98/pytorch:pytorch -f ./pytorch.Dockerfile ./
 	
-* 偷懒tips（封装好一个空环境，准备好`requiremente.txt`，挂载conda环境路径运行）:
+* 偷懒tips（封装好一个空环境，准备好`requiremente.yaml`，挂载路径运行）:
 
-	* 准备`requiremente.txt`：`pip freeze > requirements.txt`
+	* 准备`requiremente.yaml`：`conda env export > requirements.yaml`
 	
 	* 运行docker： 
 	
 	```shell
-	sudo docker run -v /home/zyd/Reed/RL/AD_VAT_PPO/envs/docker/:/usr/envs/:ro -it reed98/torch:v0 
+	sudo docker run -v /home/zyd/Reed/RL/AD_VAT_PPO/envs/docker/:/usr/envs/ -it reed98/torch:v0 
 	# 通过-v参数，冒号前为宿主机目录，必须为绝对路径，冒号后为镜像内挂载的路径。默认挂载的路径权限为读写。如果指定为只读可以用：ro
 	```
 	
 	* 进入docker后：
 	```shell
-	 conda env create -f /usr/envs/environment.yaml && conda activate torch && pip install -r /usr/envs/requirement.txt
+	 conda env create -f /usr/envs/environment.yaml && source activate torch
 	```
 
 
