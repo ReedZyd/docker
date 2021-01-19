@@ -32,11 +32,11 @@ README.md
 	
 	* 运行docker： 
 	
-		```shell
-		 sudo docker run -v /home/zyd/anaconda3/envs/:/usr/envs/:ro -it reed98/torch:v0 
-		# 通过-v参数，冒号前为宿主机目录，必须为绝对路径，冒号后为镜像内挂载的路径。默认挂载的路径权限为读写。如果指定为只读可以用：ro
-		
-		```
+	```shell
+	 sudo docker run -v /home/zyd/anaconda3/envs/:/usr/envs/:ro -it reed98/torch:v0 
+	# 通过-v参数，冒号前为宿主机目录，必须为绝对路径，冒号后为镜像内挂载的路径。默认挂载的路径权限为读写。如果指定为只读可以用：ro
+
+	```
 	
 	* 进入docker后：
 	```shell
