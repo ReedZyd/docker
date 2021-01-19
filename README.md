@@ -25,6 +25,8 @@ README.md
 * 封装镜像：
 
 	* docker build -t reed98/pytorch:pytorch -f ./pytorch.Dockerfile ./
+	
+	
 
 * 上传镜像：
 
